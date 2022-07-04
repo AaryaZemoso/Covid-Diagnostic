@@ -1,0 +1,38 @@
+{
+  "name": "covid-diagnostic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.ts",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/yt-search": "^2.3.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mock-mongoose": "^8.0.1-a",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "node-mocks-http": "^1.11.0",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.0",
+    "yt-search": "^2.10.3",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.36",
+    "@types/supertest": "^2.0.12",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.2"
+  }
+}
